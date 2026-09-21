@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Televisions - Appliance Energy Consumption</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+            <img src="PowerIcon.png" alt="Power logo">
+        </a>
+
+        <!-- Navigation links -->
+        <div class="nav-links">
+
+            <a href="index.html" class="nav-link">
+                Home
+            </a>
+
+            <a href="televisions.html" class="nav-link">
+                Televisions
+            </a>
+
+            <a href="about.html" class="nav-link">
+                About Us
+            </a>
+
+        </div>
+
+    </nav>
+</header>
+
+
+<main>
+
+    <!-- Television Energy Tips -->
+    <section class="hero">
+
+        <h1>Television Energy Tips</h1>
+
+        <p>
+            Screen size and technology can affect how much energy
+            a television uses. Understanding these factors can help
+            consumers make better choices when purchasing a TV.
+        </p>
+
+    </section>
+
+
+    <!-- Energy tips -->
+    <section class="content">
+
+        <h2>How to Reduce TV Energy Use</h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <h3>Use Energy Saving Mode</h3>
+
+                <p>
+                    Use the television's Energy Saver or Eco mode
+                    when available to reduce power consumption.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>Adjust Brightness</h3>
+
+                <p>
+                    Reducing screen brightness can help lower the
+                    amount of energy used by the television.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>Check Energy Ratings</h3>
+
+                <p>
+                    Energy ratings and annual energy consumption
+                    information can help consumers compare different
+                    television models.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TV Energy Insights -->
+    <section class="content">
+
+        <h2>TV Energy Insights: Data Story</h2>
+
+        <p>
+            This section presents findings from the cleaned Australian
+            television dataset processed in T01(b). The dataset contains
+            4,759 available television models. The visualisations show
+            patterns related to screen technology, screen size, power
+            consumption and star rating.
+        </p>
+
+
+        <div class="chart-container">
+
+            <h3>Chart 1: What TV technologies are most common?</h3>
+
+            <img src="charts/screen-technology.png"
+                 alt="Chart showing the distribution of television screen technologies">
+
+            <p>
+                LCD (LED) was the most common screen technology in the
+                dataset, with 3,926 models. LCD had 512 models, while
+                OLED had 321 models.
+            </p>
+
+        </div>
+
+
+        <div class="chart-container">
+
+            <h3>Chart 2: What screen sizes are most frequent?</h3>
+
+            <img src="charts/screen-size.png"
+                 alt="Chart showing the distribution of television screen sizes">
+
+            <p>
+                The 65-inch screen size was the most common in the
+                dataset, with 869 television models. Other common
+                sizes included 75-inch and 55-inch televisions.
+            </p>
+
+        </div>
+
+
+        <div class="chart-container">
+
+            <h3>Chart 3: Which screen type uses the least power?</h3>
+
+            <img src="charts/average-power-technology.png"
+                 alt="Chart showing average power consumption by screen technology">
+
+            <p>
+                LCD televisions had the lowest average power consumption
+                at approximately 85.14 W. LCD (LED) averaged about
+                120.52 W, while OLED averaged about 128.84 W.
+            </p>
+
+        </div>
+
+
+        <div class="chart-container">
+
+            <h3>Chart 4: What is the relationship between screen size and power use?</h3>
+
+            <img src="charts/screen-size-vs-power.png"
+                 alt="Scatter plot showing the relationship between screen size and average power consumption">
+
+            <p>
+                The scatter plot shows a general positive relationship
+                between screen size and power consumption. Larger
+                televisions generally use more power, although there
+                is some variation between models.
+            </p>
+
+        </div>
+
+
+        <div class="chart-container">
+
+            <h3>Chart 5: What is the relationship between star rating and screen size?</h3>
+
+            <img src="charts/screen-size-vs-star-rating.png"
+                 alt="Scatter plot showing the relationship between screen size and star rating">
+
+            <p>
+                The points are spread across different screen sizes,
+                showing no clear consistent relationship between
+                screen size and star rating in this dataset.
+            </p>
+
+        </div>
+
+
+        <div class="chart-container">
+
+            <h3>Chart 6: How does average power change with screen size?</h3>
+
+            <img src="charts/average-power-by-screen-size.png"
+                 alt="Bar chart showing average power consumption by television screen size">
+
+            <p>
+                Average power consumption generally increases as
+                screen size becomes larger. For example, the average
+                power was about 128.21 W for 65-inch TVs and about
+                275.72 W for 98-inch TVs.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Conclusion -->
+    <section class="content">
+
+        <h2>Conclusion</h2>
+
+        <p>
+            The data shows that television energy consumption is
+            affected by factors such as screen technology and screen
+            size. Larger televisions generally use more power, while
+            the relationship between screen size and star rating is
+            less clear. The 65-inch television was the most common
+            screen size in the dataset. These findings can help
+            consumers understand some of the factors to consider
+            when comparing television models.
+        </p>
+
+    </section>
+
+</main>
+
+
+<!-- Footer -->
+<footer>
+
+    <p>
+        &copy; 2026 Bernice Liu | GenAI acknowledgement:
+        ChatGPT and GitHub Copilot were used to assist with code and content.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

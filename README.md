@@ -65,7 +65,7 @@ The storyboard shows the audience, six questions, the purpose of each visualisat
 
 Miro storyboard:
 
-[Paste your Miro board link here]
+https://miro.com/app/board/uXjVHj-p180=/?share_link_id=341651278908
 
 ## About the Data
 

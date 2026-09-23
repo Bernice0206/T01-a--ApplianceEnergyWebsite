@@ -164,7 +164,18 @@ body {
 }
 
 
-/* Chart section */
+/* T03 Data Story Introduction */
+.story-intro {
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.story-intro p {
+    margin-bottom: 15px;
+}
+
+
+/* T03 Chart sections */
 .chart-container {
     background-color: white;
     margin: 40px auto;
@@ -190,6 +201,25 @@ body {
 .chart-container p {
     max-width: 750px;
     margin: auto;
+}
+
+
+/* T03 Key Finding */
+.finding {
+    max-width: 750px;
+    margin: 20px auto 0;
+    padding: 15px 20px;
+    background-color: #d9eeee;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.finding strong {
+    color: #0b5d5e;
+}
+
+.finding p {
+    margin-top: 5px;
 }
 
 
@@ -232,5 +262,13 @@ footer p {
     .card {
         width: 100%;
         max-width: 350px;
+    }
+
+    .chart-container {
+        padding: 20px;
+    }
+
+    .chart-container h3 {
+        font-size: 20px;
     }
 }

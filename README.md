@@ -131,7 +131,7 @@ The Televisions page contains six visualisations based on the cleaned dataset ex
 - Larger televisions generally tended to use more power, although there was variation between models.
 - There was no clear consistent relationship between screen size and star rating in the dataset.
 
-## GenAI Acknowledgement
+## AI Declaration
 
 ChatGPT and GitHub Copilot were used to assist with the development of this website.
 

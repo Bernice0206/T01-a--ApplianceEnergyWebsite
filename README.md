@@ -19,6 +19,7 @@ The Televisions page presents a data story using visualisations created from the
 - JavaScript
 - GitHub
 - GitHub Desktop
+- Vercel
 - Visual Studio Code
 - KNIME
 - Miro
@@ -79,7 +80,6 @@ The original dataset contained 5,028 records.
 
 The data was processed using KNIME in T01(b). The processing included:
 
-- Handling missing values
 - Removing duplicate records
 - Filtering the dataset to available television models
 - Selecting the columns needed for the analysis
